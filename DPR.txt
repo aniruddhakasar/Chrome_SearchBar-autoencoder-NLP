@@ -1,0 +1,18 @@
+Training Pipeline components
+
+1 data Ingestion
+2 data Validation
+3 data Cleaning
+4 data Transformation
+5 model Trainer
+6 model Evaluation
+7 model Pusher
+
+# dataingestion
+ to load the chrome_history.csv files from the data directory.
+ perform the  join operation on multiple .csv files. so that we can get a final data.
+ extract only chrome history title from the files.
+ prepare a single text file from the multiple chrome_history.csv files.
+ save the final history text file into dataingestion artifact directory.
+        
+

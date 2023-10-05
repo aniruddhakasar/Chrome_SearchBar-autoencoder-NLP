@@ -1,0 +1,37 @@
+[2023-03-19 16:04:55,451]  - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2023-03-19 16:04:55,790]  - DEBUG - Creating converter from 7 to 5
+[2023-03-19 16:04:55,790]  - DEBUG - Creating converter from 5 to 7
+[2023-03-19 16:04:55,790]  - DEBUG - Creating converter from 7 to 5
+[2023-03-19 16:04:55,790]  - DEBUG - Creating converter from 5 to 7
+[2023-03-19 16:04:58,460]  - INFO - configuring all the dataIngestion path variable
+[2023-03-19 16:04:58,460]  - INFO - arranging file path of all chrome history csv files in a list!
+[2023-03-19 16:04:58,463]  - INFO - successfully configured
+[2023-03-19 16:04:58,463]  - INFO - initiating DataIngestion
+[2023-03-19 16:04:58,464]  - INFO - Merging all the csv files in one dataframe!
+[2023-03-19 16:04:58,723]  - INFO - file size after merged :- (49449, 1)
+[2023-03-19 16:04:58,864]  - INFO - initiated DataIngestion
+[2023-03-19 16:04:58,864]  - INFO - initiating datavalidation class
+[2023-03-19 16:04:59,036]  - INFO - writing Validationroport.yaml file
+[2023-03-19 16:04:59,036]  - INFO - initiating the datacleaning instance methods!
+[2023-03-19 16:04:59,111]  - INFO - dropping the duplicate history from history
+[2023-03-19 16:04:59,127]  - INFO - successfully droped duplicacy, and now size :- (5946, 1)
+[2023-03-19 16:04:59,127]  - INFO - remove less lenght and linc history !
+[2023-03-19 16:04:59,293]  - INFO - successfully removed less length and linc, and now size :- (4695, 1)
+[2023-03-19 16:04:59,293]  - INFO - cleaning unnecessay words and lowerise the sentences
+[2023-03-19 16:05:00,031]  - INFO - successfully cleaned the text!
+[2023-03-19 16:05:00,031]  - INFO - concatenating entire titles as a single str!
+[2023-03-19 16:05:00,081]  - INFO - successfully concated entire text!
+[2023-03-19 16:05:00,081]  - INFO - removing unneccessary extra spaces.
+[2023-03-19 16:05:00,109]  - INFO - preparing final text data!
+[2023-03-19 16:05:00,119]  - INFO - successfully prepared the final text with length :- 221069
+[2023-03-19 16:05:00,119]  - INFO - saving the cleaned text file
+[2023-03-19 16:05:00,126]  - INFO - successfully saved the cleaned text file !
+[2023-03-19 16:05:00,147]  - INFO - read text file from C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03192023__160458\datacleaning\cleaned_file\cleaned_text_file.txt
+[2023-03-19 16:05:02,108]  - INFO - text_data successfully lemmetized !
+[2023-03-19 16:05:02,108]  - INFO - saving the lemmetized file at this position :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03192023__160458\DataTransformation\lemmetized\lemmetized.txt
+[2023-03-19 16:05:02,108]  - INFO - saving the cleaned text file
+[2023-03-19 16:05:02,123]  - INFO - successfully saved the cleaned text file !
+[2023-03-19 16:05:02,172]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03192023__160458\DataTransformation\wordindex\word_index.pkl
+[2023-03-19 16:05:02,172]  - INFO - word index successfully save at this position :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03192023__160458\DataTransformation\wordindex\word_index.pkl
+[2023-03-19 16:05:02,188]  - INFO - tokenizer successfully fit and saved on this position :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03192023__160458\DataTransformation\Tokenizer\tokenizer.pkl
+[2023-03-19 16:05:02,281]  - INFO - saving the cleaned text file

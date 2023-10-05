@@ -1,0 +1,77 @@
+[2023-03-27 13:46:35,573]  - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2023-03-27 13:46:35,901]  - DEBUG - Creating converter from 7 to 5
+[2023-03-27 13:46:35,901]  - DEBUG - Creating converter from 5 to 7
+[2023-03-27 13:46:35,901]  - DEBUG - Creating converter from 7 to 5
+[2023-03-27 13:46:35,901]  - DEBUG - Creating converter from 5 to 7
+[2023-03-27 13:46:39,115]  - INFO - suggestion started !!
+[2023-03-27 13:46:39,116]  - INFO - configuring all the dataIngestion path variable
+[2023-03-27 13:46:39,117]  - INFO - arranging file path of all chrome history csv files in a list!
+[2023-03-27 13:46:39,118]  - INFO - successfully configured
+[2023-03-27 13:46:39,118]  - INFO - initiating DataIngestion
+[2023-03-27 13:46:39,119]  - INFO - Merging all the csv files in one dataframe!
+[2023-03-27 13:46:39,194]  - INFO - file size after merged :- (10399, 1)
+[2023-03-27 13:46:39,662]  - INFO - initiated DataIngestion
+[2023-03-27 13:46:39,662]  - INFO - initiating datavalidation class
+[2023-03-27 13:46:39,735]  - INFO - writing Validationroport.yaml file
+[2023-03-27 13:46:39,738]  - INFO - initiating the datacleaning instance methods!
+[2023-03-27 13:46:39,756]  - INFO - dropping the duplicate history from history
+[2023-03-27 13:46:39,765]  - INFO - successfully droped duplicacy, and now size :- (1328, 1)
+[2023-03-27 13:46:39,765]  - INFO - remove less lenght and linc history !
+[2023-03-27 13:46:39,809]  - INFO - successfully removed less length and linc, and now size :- (849, 1)
+[2023-03-27 13:46:39,810]  - INFO - cleaning unnecessay words and lowerise the sentences
+[2023-03-27 13:46:39,916]  - INFO - successfully cleaned the text!
+[2023-03-27 13:46:39,916]  - INFO - concatenating entire titles as a single str!
+[2023-03-27 13:46:39,924]  - INFO - successfully concated entire text!
+[2023-03-27 13:46:39,925]  - INFO - removing unneccessary extra spaces.
+[2023-03-27 13:46:39,929]  - INFO - preparing final text data!
+[2023-03-27 13:46:39,932]  - INFO - successfully prepared the final text with length :- 35143
+[2023-03-27 13:46:39,933]  - INFO - saving the cleaned text file
+[2023-03-27 13:46:39,938]  - INFO - successfully saved the cleaned text file !
+[2023-03-27 13:46:39,952]  - INFO - read text file from C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\datacleaning\cleaned_file\cleaned_text_file.txt
+[2023-03-27 13:46:42,362]  - INFO - text_data successfully lemmetized !
+[2023-03-27 13:46:42,362]  - INFO - saving the lemmetized file at this position :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\lemmetized\lemmetized.txt
+[2023-03-27 13:46:42,362]  - INFO - saving the cleaned text file
+[2023-03-27 13:46:42,362]  - INFO - successfully saved the cleaned text file !
+[2023-03-27 13:46:42,362]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\lemmetized\lemmetizer.pkl
+[2023-03-27 13:46:42,378]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\wordindex\word_index.pkl
+[2023-03-27 13:46:42,378]  - INFO - word index successfully save at this position :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\wordindex\word_index.pkl
+[2023-03-27 13:46:42,378]  - INFO - no. of unique words :- 1825
+[2023-03-27 13:46:42,393]  - INFO - tokenizer successfully fit and saved on this position :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\Tokenizer\tokenizer.pkl
+[2023-03-27 13:46:42,393]  - INFO - saving the cleaned text file
+[2023-03-27 13:46:42,393]  - INFO - successfully saved the cleaned text file !
+[2023-03-27 13:46:42,393]  - INFO - sequence data textfile successfully saved at this position :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\SequenceData\sequencedata.txt
+[2023-03-27 13:46:42,393]  - INFO - saving transformed data !
+[2023-03-27 13:46:42,409]  - INFO - successfully saved sequence numpy array !
+[2023-03-27 13:46:42,425]  - INFO - successfully transformed the y_data !
+[2023-03-27 13:46:42,425]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\Trained_data\x_train.pkl
+[2023-03-27 13:46:42,504]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\Trained_data\y_train.pkl
+[2023-03-27 13:46:42,504]  - INFO - succesfully saved your trained data at this position :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\Trained_data
+[2023-03-27 13:46:42,519]  - INFO - successfully load the obj :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\Trained_data\x_train.pkl
+[2023-03-27 13:46:42,535]  - INFO - successfully load the obj :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\Trained_data\y_train.pkl
+[2023-03-27 13:46:42,535]  - INFO - successfully loaded data for the training !
+[2023-03-27 13:46:48,382]  - INFO - Model has been declared successfully !
+[2023-03-27 13:47:21,613]  - DEBUG - Creating converter from 5 to 3
+[2023-03-27 13:47:34,188]  - INFO - model trained successfully !
+[2023-03-27 13:47:34,188]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\Model\epoch_history\epoch_history.pkl
+[2023-03-27 13:47:34,203]  - DEBUG - Creating converter from 3 to 5
+[2023-03-27 13:47:39,675]  - INFO - successfully load the obj :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\Trained_data\x_train.pkl
+[2023-03-27 13:47:39,691]  - INFO - successfully load the obj :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\Trained_data\y_train.pkl
+[2023-03-27 13:47:48,801]  - INFO - model evaluted with this accuracy :-3.31 and loss is :- 66.77
+[2023-03-27 13:47:48,801]  - INFO - Model is underfit !
+[2023-03-27 13:47:48,817]  - INFO - successfully load the obj :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\Tokenizer\tokenizer.pkl
+[2023-03-27 13:47:48,819]  - INFO - successfully load the obj :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\lemmetized\lemmetizer.pkl
+[2023-03-27 13:47:54,228]  - INFO - successfully load the obj :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\DataTransformation\wordindex\word_index.pkl
+[2023-03-27 13:47:54,514]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\modelPusher\saved_models\lemmetizer.pkl
+[2023-03-27 13:47:54,514]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\modelPusher\saved_models\tokenizer.pkl
+[2023-03-27 13:47:54,529]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\coding\Data Scientist\NLP\Chrome_SearchBar-autoencoder-NLP\artifacts\03272023__134639\modelPusher\saved_models\word_index.pkl
+[2023-03-27 13:47:54,688]  - INFO - saved models in artifact -> Modelpusher
+[2023-03-27 13:47:54,696]  - INFO - saved object file path :- saved_models\2\tokenizer\tokenizer.pkl
+[2023-03-27 13:47:54,698]  - INFO - saved object file path :- saved_models\2\lemmetizer\lemmetizer.pkl
+[2023-03-27 13:47:54,700]  - INFO - saved object file path :- saved_models\2\wordIndex\word_index.pkl
+[2023-03-27 13:47:54,871]  - INFO - saved models in saved_models
+[2023-03-27 13:47:54,871]  - INFO - Training Pipeline executed Successfully !
+[2023-03-27 13:55:19,470]  - INFO - loading all the models to get suggestions ..
+[2023-03-27 13:55:19,482]  - INFO - successfully load the obj :- saved_models\2\tokenizer\tokenizer.pkl
+[2023-03-27 13:55:19,482]  - INFO - successfully load the obj :- saved_models\2\lemmetizer\lemmetizer.pkl
+[2023-03-27 13:55:24,832]  - INFO - successfully loaded all the model to get the suggestion !!
+[2023-03-27 13:55:24,832]  - INFO - calling the suggestion functions!!

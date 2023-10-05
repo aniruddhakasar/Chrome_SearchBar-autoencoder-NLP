@@ -1,0 +1,28 @@
+[2023-03-19 13:11:35,411]  - INFO - configuring all the dataIngestion path variable
+[2023-03-19 13:11:35,411]  - INFO - arranging file path of all chrome history csv files in a list!
+[2023-03-19 13:11:35,411]  - INFO - successfully configured
+[2023-03-19 13:11:35,411]  - INFO - initiating DataIngestion
+[2023-03-19 13:11:35,411]  - INFO - Merging all the csv files in one dataframe!
+[2023-03-19 13:11:35,692]  - INFO - file size after merged :- (49449, 1)
+[2023-03-19 13:11:35,836]  - INFO - initiated DataIngestion
+[2023-03-19 13:11:35,836]  - INFO - initiating datavalidation class
+[2023-03-19 13:11:36,028]  - INFO - writing Validationroport.yaml file
+[2023-03-19 13:11:36,036]  - INFO - initiating the datacleaning instance methods!
+[2023-03-19 13:11:36,116]  - INFO - dropping the duplicate history from history
+[2023-03-19 13:11:36,139]  - INFO - successfully droped duplicacy, and now size :- (5946, 1)
+[2023-03-19 13:11:36,141]  - INFO - remove less lenght and linc history !
+[2023-03-19 13:11:36,322]  - INFO - successfully removed less length and linc, and now size :- (4695, 1)
+[2023-03-19 13:11:36,323]  - INFO - cleaning unnecessay words and lowerise the sentences
+[2023-03-19 13:11:37,753]  - INFO - successfully cleaned the text!
+[2023-03-19 13:11:37,753]  - INFO - concatenating entire titles as a single str!
+[2023-03-19 13:11:37,883]  - INFO - successfully concated entire text!
+[2023-03-19 13:11:37,883]  - INFO - removing unneccessary extra spaces.
+[2023-03-19 13:11:37,916]  - INFO - preparing final text data!
+[2023-03-19 13:11:37,927]  - INFO - successfully prepared the final text with length :- 221069
+[2023-03-19 13:11:37,928]  - INFO - saving the cleaned text file
+[2023-03-19 13:11:37,935]  - INFO - successfully saved the cleaned text file !
+[2023-03-19 13:11:37,959]  - INFO - read text file from C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03192023__131135\datacleaning\cleaned_file\cleaned_text_file.txt
+[2023-03-19 13:11:39,018]  - INFO - text_data successfully lemmetized !
+[2023-03-19 13:11:39,018]  - INFO - saving the lemmetized file at this position :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03192023__131135\DataTransformation\lemmetized\lemmetized.txt
+[2023-03-19 13:11:39,018]  - INFO - saving the cleaned text file
+[2023-03-19 13:11:39,023]  - INFO - successfully saved the cleaned text file !

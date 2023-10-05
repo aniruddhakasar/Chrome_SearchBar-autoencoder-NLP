@@ -1,0 +1,28 @@
+[2023-03-19 15:49:31,420]  - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2023-03-19 15:49:32,755]  - DEBUG - Creating converter from 7 to 5
+[2023-03-19 15:49:32,755]  - DEBUG - Creating converter from 5 to 7
+[2023-03-19 15:49:32,771]  - DEBUG - Creating converter from 7 to 5
+[2023-03-19 15:49:32,771]  - DEBUG - Creating converter from 5 to 7
+[2023-03-19 15:49:39,245]  - INFO - configuring all the dataIngestion path variable
+[2023-03-19 15:49:39,245]  - INFO - arranging file path of all chrome history csv files in a list!
+[2023-03-19 15:49:39,245]  - INFO - successfully configured
+[2023-03-19 15:49:39,245]  - INFO - initiating DataIngestion
+[2023-03-19 15:49:39,245]  - INFO - Merging all the csv files in one dataframe!
+[2023-03-19 15:49:39,573]  - INFO - file size after merged :- (49449, 1)
+[2023-03-19 15:49:39,715]  - INFO - initiated DataIngestion
+[2023-03-19 15:49:39,715]  - INFO - initiating datavalidation class
+[2023-03-19 15:49:39,887]  - INFO - writing Validationroport.yaml file
+[2023-03-19 15:49:39,887]  - INFO - initiating the datacleaning instance methods!
+[2023-03-19 15:49:39,950]  - INFO - dropping the duplicate history from history
+[2023-03-19 15:49:39,950]  - INFO - successfully droped duplicacy, and now size :- (5946, 1)
+[2023-03-19 15:49:39,950]  - INFO - remove less lenght and linc history !
+[2023-03-19 15:49:40,075]  - INFO - successfully removed less length and linc, and now size :- (4695, 1)
+[2023-03-19 15:49:40,075]  - INFO - cleaning unnecessay words and lowerise the sentences
+[2023-03-19 15:49:40,671]  - INFO - successfully cleaned the text!
+[2023-03-19 15:49:40,671]  - INFO - concatenating entire titles as a single str!
+[2023-03-19 15:49:40,702]  - INFO - successfully concated entire text!
+[2023-03-19 15:49:40,702]  - INFO - removing unneccessary extra spaces.
+[2023-03-19 15:49:40,733]  - INFO - preparing final text data!
+[2023-03-19 15:49:40,749]  - INFO - successfully prepared the final text with length :- 221069
+[2023-03-19 15:49:40,749]  - INFO - saving the cleaned text file
+[2023-03-19 15:49:40,749]  - INFO - successfully saved the cleaned text file !

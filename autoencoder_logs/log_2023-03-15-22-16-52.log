@@ -1,0 +1,23 @@
+[2023-03-15 22:16:53,295]  - INFO - configuring all the dataIngestion path variable
+[2023-03-15 22:16:53,295]  - INFO - arranging file path of all chrome history csv files in a list!
+[2023-03-15 22:16:53,295]  - INFO - successfully configured
+[2023-03-15 22:16:53,295]  - INFO - initiating DataIngestion
+[2023-03-15 22:16:53,311]  - INFO - Merging all the csv files in one dataframe!
+[2023-03-15 22:16:53,647]  - INFO - file size after merged :- (49449, 1)
+[2023-03-15 22:16:53,795]  - INFO - initiated DataIngestion
+[2023-03-15 22:16:53,796]  - INFO - initiating datavalidation class
+[2023-03-15 22:16:54,132]  - INFO - writing Validationroport.yaml file
+[2023-03-15 22:16:54,137]  - INFO - initiating the datacleaning instance methods!
+[2023-03-15 22:16:54,209]  - INFO - dropping the duplicate history from history
+[2023-03-15 22:16:54,223]  - INFO - successfully droped duplicacy, and now size :- (5946, 1)
+[2023-03-15 22:16:54,223]  - INFO - remove less lenght and linc history !
+[2023-03-15 22:16:54,343]  - INFO - successfully removed less length and linc, and now size :- (4695, 1)
+[2023-03-15 22:16:54,344]  - INFO - cleaning unnecessay words and lowerise the sentences
+[2023-03-15 22:16:54,804]  - INFO - successfully cleaned the text!
+[2023-03-15 22:16:54,804]  - INFO - concatenating entire titles as a single str!
+[2023-03-15 22:16:54,855]  - INFO - successfully concated entire text!
+[2023-03-15 22:16:54,855]  - INFO - removing unneccessary extra spaces.
+[2023-03-15 22:16:54,925]  - INFO - preparing final text data!
+[2023-03-15 22:16:54,947]  - INFO - successfully prepared the final text with length :- 221069
+[2023-03-15 22:16:54,947]  - INFO - saving the cleaned text file
+[2023-03-15 22:16:54,958]  - INFO - successfully saved the cleaned text file !

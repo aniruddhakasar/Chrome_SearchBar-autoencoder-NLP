@@ -1,0 +1,46 @@
+[2023-03-20 00:04:26,698]  - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2023-03-20 00:04:27,029]  - DEBUG - Creating converter from 7 to 5
+[2023-03-20 00:04:27,029]  - DEBUG - Creating converter from 5 to 7
+[2023-03-20 00:04:27,029]  - DEBUG - Creating converter from 7 to 5
+[2023-03-20 00:04:27,029]  - DEBUG - Creating converter from 5 to 7
+[2023-03-20 00:04:29,599]  - INFO - configuring all the dataIngestion path variable
+[2023-03-20 00:04:29,599]  - INFO - arranging file path of all chrome history csv files in a list!
+[2023-03-20 00:04:29,599]  - INFO - successfully configured
+[2023-03-20 00:04:29,599]  - INFO - initiating DataIngestion
+[2023-03-20 00:04:29,614]  - INFO - Merging all the csv files in one dataframe!
+[2023-03-20 00:04:29,976]  - INFO - file size after merged :- (49449, 1)
+[2023-03-20 00:04:30,117]  - INFO - initiated DataIngestion
+[2023-03-20 00:04:30,117]  - INFO - initiating datavalidation class
+[2023-03-20 00:04:30,333]  - INFO - writing Validationroport.yaml file
+[2023-03-20 00:04:30,336]  - INFO - initiating the datacleaning instance methods!
+[2023-03-20 00:04:30,389]  - INFO - dropping the duplicate history from history
+[2023-03-20 00:04:30,399]  - INFO - successfully droped duplicacy, and now size :- (5946, 1)
+[2023-03-20 00:04:30,399]  - INFO - remove less lenght and linc history !
+[2023-03-20 00:04:30,509]  - INFO - successfully removed less length and linc, and now size :- (4695, 1)
+[2023-03-20 00:04:30,509]  - INFO - cleaning unnecessay words and lowerise the sentences
+[2023-03-20 00:04:31,168]  - INFO - successfully cleaned the text!
+[2023-03-20 00:04:31,168]  - INFO - concatenating entire titles as a single str!
+[2023-03-20 00:04:31,214]  - INFO - successfully concated entire text!
+[2023-03-20 00:04:31,214]  - INFO - removing unneccessary extra spaces.
+[2023-03-20 00:04:31,246]  - INFO - preparing final text data!
+[2023-03-20 00:04:31,261]  - INFO - successfully prepared the final text with length :- 221069
+[2023-03-20 00:04:31,261]  - INFO - saving the cleaned text file
+[2023-03-20 00:04:31,277]  - INFO - successfully saved the cleaned text file !
+[2023-03-20 00:04:31,293]  - INFO - read text file from C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03202023__000429\datacleaning\cleaned_file\cleaned_text_file.txt
+[2023-03-20 00:04:34,021]  - INFO - text_data successfully lemmetized !
+[2023-03-20 00:04:34,021]  - INFO - saving the lemmetized file at this position :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03202023__000429\DataTransformation\lemmetized\lemmetized.txt
+[2023-03-20 00:04:34,021]  - INFO - saving the cleaned text file
+[2023-03-20 00:04:34,021]  - INFO - successfully saved the cleaned text file !
+[2023-03-20 00:04:34,068]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03202023__000429\DataTransformation\wordindex\word_index.pkl
+[2023-03-20 00:04:34,068]  - INFO - word index successfully save at this position :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03202023__000429\DataTransformation\wordindex\word_index.pkl
+[2023-03-20 00:04:34,068]  - INFO - no. of unique words :- 6337
+[2023-03-20 00:04:34,083]  - INFO - tokenizer successfully fit and saved on this position :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03202023__000429\DataTransformation\Tokenizer\tokenizer.pkl
+[2023-03-20 00:04:34,132]  - INFO - saving the cleaned text file
+[2023-03-20 00:04:34,132]  - INFO - successfully saved the cleaned text file !
+[2023-03-20 00:04:34,132]  - INFO - sequence data textfile successfully saved at this position :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03202023__000429\DataTransformation\SequenceData\sequencedata.txt
+[2023-03-20 00:04:34,132]  - INFO - saving transformed data !
+[2023-03-20 00:04:34,132]  - INFO - successfully saved sequence numpy array !
+[2023-03-20 00:04:34,289]  - INFO - successfully transformed the y_data !
+[2023-03-20 00:04:34,289]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03202023__000429\DataTransformation\Trained_data\x_train.pkl
+[2023-03-20 00:04:37,425]  - INFO - saved object file path :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03202023__000429\DataTransformation\Trained_data\y_train.pkl
+[2023-03-20 00:04:37,425]  - INFO - succesfully saved your trained data at this position :- C:\Users\Ranjit Singh\Desktop\Chrome_SearchBar-autoencoder-NLP\artifacts\03202023__000429\DataTransformation\Trained_data

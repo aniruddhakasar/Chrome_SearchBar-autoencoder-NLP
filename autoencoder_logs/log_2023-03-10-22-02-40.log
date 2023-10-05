@@ -1,0 +1,6 @@
+[2023-03-10 22:02:41,667]  - INFO - configuring all the dataIngestion path variable
+[2023-03-10 22:02:41,667]  - INFO - arranging file path of all chrome history csv files in a list!
+[2023-03-10 22:02:41,667]  - INFO - successfully configured
+[2023-03-10 22:02:41,667]  - INFO - initiating DataIngestion
+[2023-03-10 22:02:42,008]  - INFO - merging the histories files in a one file..
+[2023-03-10 22:02:42,332]  - INFO - initiated DataIngestion

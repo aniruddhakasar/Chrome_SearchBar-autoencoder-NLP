@@ -1,0 +1,20 @@
+[2023-03-15 20:37:03,847]  - INFO - configuring all the dataIngestion path variable
+[2023-03-15 20:37:03,847]  - INFO - arranging file path of all chrome history csv files in a list!
+[2023-03-15 20:37:03,847]  - INFO - successfully configured
+[2023-03-15 20:37:03,847]  - INFO - initiating DataIngestion
+[2023-03-15 20:37:03,847]  - INFO - Merging all the csv files in one dataframe!
+[2023-03-15 20:37:04,791]  - INFO - initiated DataIngestion
+[2023-03-15 20:37:04,795]  - INFO - initiating the datacleaning instance methods!
+[2023-03-15 20:37:05,062]  - INFO - dropping the duplicate history from history
+[2023-03-15 20:37:05,171]  - INFO - successfully droped duplicacy, and now size :- (49449, 9)
+[2023-03-15 20:37:05,171]  - INFO - remove less lenght and linc history !
+[2023-03-15 20:37:06,196]  - INFO - successfully removed less length and linc, and now size :- (36250, 1)
+[2023-03-15 20:37:06,199]  - INFO - cleaning unnecessay words and lowerise the sentences
+[2023-03-15 20:37:09,107]  - INFO - successfully cleaned the text!
+[2023-03-15 20:37:09,107]  - INFO - concatenating entire titles as a single str!
+[2023-03-15 20:37:09,452]  - INFO - successfully concated entire text!
+[2023-03-15 20:37:09,452]  - INFO - removing unneccessary extra spaces.
+[2023-03-15 20:37:09,618]  - INFO - preparing final text data!
+[2023-03-15 20:37:09,728]  - INFO - successfully prepared the final text with length :- 1481547
+[2023-03-15 20:37:09,728]  - INFO - saving the cleaned text file
+[2023-03-15 20:37:09,743]  - INFO - successfully saved the cleaned text file !

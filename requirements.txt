@@ -1,0 +1,16 @@
+dnspython==2.2.1
+httptools==0.5.0
+pip-chill==1.0.1
+uvicorn==0.18.3
+watchfiles==0.17.0
+websockets==10.3
+wincertstore==0.2
+tensorflow
+keras
+nltk
+re
+pandas
+PyYAML
+pymongo
+numpy
+-e .

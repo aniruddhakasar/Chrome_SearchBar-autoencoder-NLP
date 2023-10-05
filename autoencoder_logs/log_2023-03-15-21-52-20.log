@@ -1,0 +1,8 @@
+[2023-03-15 21:52:21,929]  - INFO - configuring all the dataIngestion path variable
+[2023-03-15 21:52:21,929]  - INFO - arranging file path of all chrome history csv files in a list!
+[2023-03-15 21:52:21,929]  - INFO - successfully configured
+[2023-03-15 21:52:21,929]  - INFO - initiating DataIngestion
+[2023-03-15 21:52:21,929]  - INFO - Merging all the csv files in one dataframe!
+[2023-03-15 21:52:22,635]  - INFO - file size after merged :- (49449, 1)
+[2023-03-15 21:52:22,797]  - INFO - initiated DataIngestion
+[2023-03-15 21:52:22,798]  - INFO - initiating datavalidation class
